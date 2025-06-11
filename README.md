@@ -10,7 +10,7 @@ You can access the dataset [here](https://drive.google.com/file/d/1gwMM9dc3nkbMv
 ---
 
 ## Workflows
-
+0. cnnClassifier/__init__.py 'logger'
 1. Update `config.yaml`  
 2. Update `secrets.yaml` *(Optional)*  
 3. Update `params.yaml`  
