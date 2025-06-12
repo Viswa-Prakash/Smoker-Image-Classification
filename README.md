@@ -5,7 +5,7 @@ This project aims to build an image classification model that can detect whether
 
 ## Dataset
 
-You can access the dataset [here](https://drive.google.com/file/d/1gwMM9dc3nkbMvnIKBE3lGwdkGbvjIPo9/view?usp=drive_link).
+You can access the dataset [here](https://drive.google.com/file/d/1cxFvUze9NIPn6vsKszjqQuS5ocd5CxPZ/view?usp=sharing).
 
 ---
 
