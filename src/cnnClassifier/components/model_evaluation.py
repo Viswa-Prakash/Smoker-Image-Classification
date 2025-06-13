@@ -7,7 +7,8 @@ from urllib.parse import urlparse
 from cnnClassifier.entity.config_entity import EvaluationConfig
 from cnnClassifier.utils.common import read_yaml, create_directories,save_json
 
-
+import dagshub
+dagshub.init(repo_owner='Viswa-Prakash', repo_name='Smoker-Image-Classification', mlflow=True)
 
 class Evaluation:
     def __init__(self, config: EvaluationConfig):
@@ -47,7 +48,7 @@ class Evaluation:
     def evaluation(self):
         self.model = self.load_model(self.config.path_of_model)
         self._valid_generator()
-        self.score = model.evaluate(self.valid_generator)
+        self.score = self.model.evaluate(self.valid_generator)
         self.save_score()
 
     def save_score(self):
